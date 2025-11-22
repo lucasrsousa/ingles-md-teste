@@ -34,6 +34,9 @@
     flex: 1;
     min-width: 300px;
 }
+p {
+    margin-bottom: 1rem;
+}
 </style>
 
 <div class="columns">
@@ -42,11 +45,11 @@
 
 ### 🇺🇸 English Text
 
-Amazon SageMaker helps data scientists and developers prepare data and build, train, and deploy machine learning models quickly by bringing together purpose-built capabilities. These capabilities allow you to build highly accurate models that improve over time without all the undifferentiated heavy lifting of managing ML environments and infrastructure.
+<p>Amazon SageMaker helps data scientists and developers prepare data and build, train, and deploy machine learning models quickly by bringing together purpose-built capabilities. These capabilities allow you to build highly accurate models that improve over time without all the undifferentiated heavy lifting of managing ML environments and infrastructure.</p>
 
-Let's see how SageMaker helps you develop great machine learning models by way of an example where we build a model that creates a musical playlist, curated to the listener's taste.
+<p>Let's see how SageMaker helps you develop great machine learning models by way of an example where we build a model that creates a musical playlist, curated to the listener's taste.</p>
 
-First, you need lots of data. SageMaker lets you connect and load your data from sources such as **Amazon S3** and **Amazon Redshift** in just a few clicks from **SageMaker Studio**. You can use this data to train your model. Models learn complex and subtle patterns to map inputs to predicted outputs. So you'll need a large quantity of metadata about songs, such as length, beats per minute, genre, and rating.
+<p>First, you need lots of data. SageMaker lets you connect and load your data from sources such as <strong>Amazon S3</strong> and <strong>Amazon Redshift</strong> in just a few clicks from <strong>SageMaker Studio</strong>. You can use this data to train your model. Models learn complex and subtle patterns to map inputs to predicted outputs. So you'll need a large quantity of metadata about songs, such as length, beats per minute, genre, and rating.</p>
 
 </div>
 
@@ -54,11 +57,11 @@ First, you need lots of data. SageMaker lets you connect and load your data from
 
 ### 🇧🇷 Tradução
 
-O **Amazon SageMaker** ajuda cientistas de dados e desenvolvedores a preparar dados e a construir, treinar e implantar modelos de aprendizado de máquina rapidamente, reunindo capacidades projetadas especificamente para isso. Essas capacidades permitem que você crie modelos altamente precisos, que melhoram com o tempo, sem o trabalho pesado de gerenciar ambientes e infraestrutura de aprendizado de máquina.
+<p>O <strong>Amazon SageMaker</strong> ajuda cientistas de dados e desenvolvedores a preparar dados e a construir, treinar e implantar modelos de aprendizado de máquina rapidamente, reunindo capacidades projetadas especificamente para isso. Essas capacidades permitem que você crie modelos altamente precisos, que melhoram com o tempo, sem o trabalho pesado de gerenciar ambientes e infraestrutura de aprendizado de máquina.</p>
 
-Vamos ver como o SageMaker ajuda a desenvolver ótimos modelos de aprendizado de máquina por meio de um exemplo em que construímos um modelo que cria uma lista de reprodução musical, curada para o gosto do ouvinte.
+<p>Vamos ver como o SageMaker ajuda a desenvolver ótimos modelos de aprendizado de máquina por meio de um exemplo em que construímos um modelo que cria uma lista de reprodução musical, curada para o gosto do ouvinte.</p>
 
-Primeiro, você precisa de muitos dados. O SageMaker permite que você conecte e carregue seus dados de fontes como **Amazon S3** e **Amazon Redshift** em apenas alguns cliques no **SageMaker Studio**. Você pode usar esses dados para treinar seu modelo. Modelos aprendem padrões complexos e sutis para mapear entradas para saídas previstas. Então, você precisará de uma grande quantidade de metadados sobre as músicas, como duração, batidas por minuto, gênero e classificação.
+<p>Primeiro, você precisa de muitos dados. O SageMaker permite que você conecte e carregue seus dados de fontes como <strong>Amazon S3</strong> e <strong>Amazon Redshift</strong> em apenas alguns cliques no <strong>SageMaker Studio</strong>. Você pode usar esses dados para treinar seu modelo. Modelos aprendem padrões complexos e sutis para mapear entradas para saídas previstas. Então, você precisará de uma grande quantidade de metadados sobre as músicas, como duração, batidas por minuto, gênero e classificação.</p>
 
 </div>
 
