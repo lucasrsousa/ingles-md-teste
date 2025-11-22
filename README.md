@@ -8,8 +8,9 @@
 
 **Título:** YouTube video player
 
-<div class="video-container">
+<div class="video-container" style="text-align: center;">
     <iframe
+        style="max-width: 750px; width: 100%; height: 422px;"
         src="https://www.youtube.com/embed/Qv_Tr_BCFCQ?si=JBGNVS4i4GNMwODJ"
         title="YouTube video player"
         frameborder="0"
