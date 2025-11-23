@@ -1,4 +1,4 @@
-# 📚 Introduction to Amazon SageMaker
+# 📚 No title found
 
 [**⬅️ Retornar**](../../index.html)
 
@@ -9,8 +9,8 @@
 <div class="video-container" style="text-align: center;">
     <iframe
         style="max-width: 750px; width: 100%; height: 422px;"
-        src="https://www.youtube.com/embed/MkptGsCmtQ4?si=JBGNVS4i4GNMwODJ"
-        title="Introduction to Amazon SageMaker"
+        src="https://www.youtube.com/embed/KnNWlfH0TPU?si=JBGNVS4i4GNMwODJ"
+        title="No title found"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin"
@@ -39,33 +39,21 @@ p {
 
 <div class="column">
 
-### English
+### Original (English)
 
-<p>Hi everyone. In this video, we'll talk about how you can test, deploy, and customized configurations for your AI models for use in Google Kubernetes Engine. Before we dive in, you should Engine.</p>
-<p>Before we dive in, you should have a basic understanding of Kubernetes concepts and machine learning. GKE is a managed Kubernetes service that makes it easy to deploy, manage, and scale your a IML workloads in the cloud without needing to be a Kubernetes expert. Let's needing to be a Kubernetes expert.</p>
-<p>Let's needing to be a Kubernetes expert. Let's look at how GKE can help you build powerful AIdriven applications. Imagine a machine learning engineer named Max. Max is tasked with building a text summarization system and decides to explore his options on the Google Cloud explore his</p>
-<p>options on the Google Cloud console. GKE supports a vast collection of pre-trained multimodel foundation models that are sourced from repositories such as Model Garden and Hugging Face. Max finds a pre-trained Hugging Face.</p>
-<p>Max finds a pre-trained large language model that aligns with his company's needs. He recognizes the need for a low latency solution. So, Max specifies his target latency. Based on these settings, GKE recommends a hardware configuration with more</p>
-<p>powerful GPUs, helping save time and ensure peak model performance. Max deploys the model with the recommended configuration, resulting in significantly improved response times.</p>
-<p>To ensure the model's performance and health, Max monitors its metrics in the GKE console. He tracks metrics like GPU or TPU utilization, request latency, and error rates. By analyzing these metrics, error rates.</p>
-<p>By analyzing these metrics, he can identify potential bottlenecks and take corrective actions such as scaling the deployment or optimizing the model. By deploying models on GKE, you can implement a robust productionready serving solution with all the benefits serving</p>
-<p>solution with all the benefits of managed Kubernetes. For more information, check out our documentation. Thanks for watching.</p>
+<p>Arize is an observability and evaluation platform. It allows machine learning engineers and AI engineers to build, evaluate, and then productionize their specific ML or AI applications. Arize is a tool that is purchasable through the AWS marketplace. It deploys directly in the AWS cloud and then is powered by those NVIDIA GPUs in order to serve clients with the agentic evaluation platform. Lots of teams want to dive into the AI world. They want to utilize all of this new LLM technology. AWS with Bedrock makes it super easy to deploy those models into their different environments. They don't need to own all of that infrastructure and all of that, that technology.</p>
+<p>We are using Bedrock to deploy various different types of models. So be it GPT-4o or be it the Claude Sonnet models, teams can plug into to Bedrock, via an API or they can access those models and actually interact with those models directly from from Bedrock. It's just a few clicks and the models are there. And from a NVIDIA perspective, we are working pretty closely with their NeMo microservices team. We've got what we're calling the data flywheel where Arize helps teams to collect and analyze how their AI applications are performing. NVIDIA kind of sits at that, at the base level, provides all of that compute power, provides the GPUs and all of the technology to actually run the models.</p>
+<p>AWS orchestrating the model deployments and then Arize is going to sit at that top level allowing you to evaluate and understand how those models are performing once they get into either development or the production world. We work with a few teams that are doing, running some fine tuning pipelines with NVIDIA's microservices, using AWS to kind of store all of that data. After running through, those services, we are able to cut down latency time. So lots of teams like to work with NVIDIA. They give you the microservices ecosystem, which makes it very easy to do fine tuning and set up guardrails for your specific use cases.</p>
 
 </div>
 
 <div class="column">
 
-### Tradução
+### Tradução (Português)
 
-<p>Oi pessoal.Neste vídeo, falaremos sobre como você pode testar, implantar e personalizar configurações para seus modelos de IA para uso no Google Kubernetes Engine.Antes de começarmos, você deve usar o Engine.</p>
-<p>Antes de começarmos, você deve ter um conhecimento básico dos conceitos do Kubernetes e do aprendizado de máquina.O GKE é um serviço gerenciado do Kubernetes que facilita a implantação, o gerenciamento e o escalonamento de cargas de trabalho IML na nuvem, sem a necessidade de ser um especialista em Kubernetes.Precisamos ser um especialista em Kubernetes.</p>
-<p>Precisamos ser um especialista em Kubernetes.Vejamos como o GKE pode ajudar você a criar aplicativos avançados baseados em IA.Imagine um engenheiro de aprendizado de máquina chamado Max.Max tem a tarefa de criar um sistema de resumo de texto e decide explorar suas opções no Google Cloud.</p>
-<p>opções no console do Google Cloud.O GKE oferece suporte a uma vasta coleção de modelos básicos multimodelos pré-treinados provenientes de repositórios como Model Garden e Hugging Face.Max encontra um Hugging Face pré-treinado.</p>
-<p>Max encontra um modelo de linguagem grande pré-treinado que se alinha às necessidades de sua empresa.Ele reconhece a necessidade de uma solução de baixa latência.Portanto, Max especifica sua latência alvo.Com base nessas configurações, o GKE recomenda uma configuração de hardware com mais</p>
-<p>GPUs poderosas, ajudando a economizar tempo e garantir o desempenho máximo do modelo.Max implanta o modelo com a configuração recomendada, resultando em tempos de resposta significativamente melhores.</p>
-<p>Para garantir o desempenho e a integridade do modelo, Max monitora as métricas no console do GKE.Ele rastreia métricas como utilização de GPU ou TPU, latência de solicitação e taxas de erro.Ao analisar essas métricas, as taxas de erro.</p>
-<p>Ao analisar essas métricas, ele pode identificar possíveis gargalos e tomar ações corretivas, como dimensionar a implantação ou otimizar o modelo.Ao implantar modelos no GKE, você pode implementar uma solução robusta e pronta para produção com todos os benefícios de veiculação</p>
-<p>solução com todos os benefícios do Kubernetes gerenciado.Para mais informações, confira nossa documentação.Obrigado por assistir.</p>
+<p>Arize é uma plataforma de observabilidade e avaliação.Ele permite que engenheiros de aprendizado de máquina e engenheiros de IA criem, avaliem e, em seguida, produzam seus aplicativos específicos de ML ou IA.Arize é uma ferramenta que pode ser adquirida no mercado AWS.Ele é implantado diretamente na nuvem AWS e, em seguida, é alimentado por essas GPUs NVIDIA para atender os clientes com a plataforma de avaliação de agentes.Muitas equipes querem mergulhar no mundo da IA.Eles querem utilizar toda essa nova tecnologia LLM.AWS com Bedrock torna muito fácil implantar esses modelos em seus diferentes ambientes.Eles não precisam possuir toda essa infraestrutura e toda essa tecnologia.</p>
+<p>Estamos usando o Bedrock para implantar vários tipos diferentes de modelos.Sejam os modelos GPT-4o ou Claude Sonnet, as equipes podem se conectar ao Bedrock, por meio de uma API ou podem acessar esses modelos e realmente interagir com eles diretamente do Bedrock.São apenas alguns cliques e os modelos estão lá.E do ponto de vista da NVIDIA, estamos trabalhando em estreita colaboração com a equipe de microsserviços NeMo.Temos o que chamamos de volante de dados, onde Arize ajuda as equipes a coletar e analisar o desempenho de seus aplicativos de IA.A NVIDIA fica nisso, no nível básico, fornecendo todo esse poder de computação, fornecendo as GPUs e toda a tecnologia para realmente executar os modelos.</p>
+<p>A AWS orquestra as implantações do modelo e, em seguida, o Arize ficará no nível superior, permitindo que você avalie e entenda o desempenho desses modelos quando entrarem no mundo do desenvolvimento ou da produção.Trabalhamos com algumas equipes que estão executando alguns pipelines de ajuste fino com microsserviços da NVIDIA, usando AWS para armazenar todos esses dados.Depois de executar esses serviços, podemos reduzir o tempo de latência.Muitas equipes gostam de trabalhar com a NVIDIA.Eles fornecem o ecossistema de microsserviços, o que torna muito fácil fazer ajustes finos e configurar proteções para seus casos de uso específicos.</p>
 
 </div>
 
