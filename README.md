@@ -9,7 +9,7 @@
 <div class="video-container" style="text-align: center;">
     <iframe
         style="max-width: 750px; width: 100%; height: 422px;"
-        src="https://www.youtube.com/embed/KnNWlfH0TPU?si=JBGNVS4i4GNMwODJ"
+        src="https://www.youtube.com/embed/sGSKSh5yNIE?si=JBGNVS4i4GNMwODJ"
         title="No title found"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -21,6 +21,7 @@
 ---
 
 <style>
+/* CSS para o layout em colunas responsivo */
 .columns {
     display: flex;
     gap: 30px;
@@ -29,6 +30,13 @@
 .column {
     flex: 1;
     min-width: 300px;
+}
+/* Garante que as colunas fiquem em pilha em telas menores */
+@media (max-width: 768px) {
+    .columns {
+        flex-direction: column;
+        gap: 0;
+    }
 }
 p {
     margin-bottom: 1rem;
@@ -41,9 +49,9 @@ p {
 
 ### Original (English)
 
-<p>Arize is an observability and evaluation platform. It allows machine learning engineers and AI engineers to build, evaluate, and then productionize their specific ML or AI applications. Arize is a tool that is purchasable through the AWS marketplace. It deploys directly in the AWS cloud and then is powered by those NVIDIA GPUs in order to serve clients with the agentic evaluation platform. Lots of teams want to dive into the AI world. They want to utilize all of this new LLM technology. AWS with Bedrock makes it super easy to deploy those models into their different environments. They don't need to own all of that infrastructure and all of that, that technology.</p>
-<p>We are using Bedrock to deploy various different types of models. So be it GPT-4o or be it the Claude Sonnet models, teams can plug into to Bedrock, via an API or they can access those models and actually interact with those models directly from from Bedrock. It's just a few clicks and the models are there. And from a NVIDIA perspective, we are working pretty closely with their NeMo microservices team. We've got what we're calling the data flywheel where Arize helps teams to collect and analyze how their AI applications are performing. NVIDIA kind of sits at that, at the base level, provides all of that compute power, provides the GPUs and all of the technology to actually run the models.</p>
-<p>AWS orchestrating the model deployments and then Arize is going to sit at that top level allowing you to evaluate and understand how those models are performing once they get into either development or the production world. We work with a few teams that are doing, running some fine tuning pipelines with NVIDIA's microservices, using AWS to kind of store all of that data. After running through, those services, we are able to cut down latency time. So lots of teams like to work with NVIDIA. They give you the microservices ecosystem, which makes it very easy to do fine tuning and set up guardrails for your specific use cases.</p>
+<p>Angular 19.2 is ready for you to check out so you can build the next great web application with Angular. The Angular team has been expanding our support for signals and reactivity, and with this release we're introducing two exciting updates. That's httpResource and response streaming with rxResource. In Angular v19 we released an experimental resource API for building asynchronous reactive applications empowering developers to perform asynchronous tasks like data fetching. The resulting data is then available via familiar signal APIs with some added bonuses including properties such as value, hasValue, isLoading, and more.</p>
+<p>Building on top of this API is the new experimental httpResource which makes a reactive HTTP request and exposes the request status and response as a writable resource. To make things even better we're also including experimental resource streaming using the rxResource API. rxResource is great for when you want to reactively handle the scenario where an endpoint streams multiple values. We're sure there are lots and lots of thoughts about this and we'd absolutely love your feedback to help us shape the future of these APIs. So check out the new RFC available now on the Angular GitHub page, link available in the description.</p>
+<p>Did you know that Angular templates keep getting cooler and better to work with? No? Well here's another great feature for you to check out. We now have support for untagged template literal expressions. This is great for things like easier stream concatenation and is less cumbersome to dynamically interpolate a value from your class into your template. We have even more bug fixes, stability updates and new APIs available in this release so be sure to check out the Angular blog, link in the description. Alright friends, that's it for me. Upgrade to Angular 19.2 and go build great apps.</p>
 
 </div>
 
@@ -51,9 +59,9 @@ p {
 
 ### Tradução (Português)
 
-<p>Arize é uma plataforma de observabilidade e avaliação.Ele permite que engenheiros de aprendizado de máquina e engenheiros de IA criem, avaliem e, em seguida, produzam seus aplicativos específicos de ML ou IA.Arize é uma ferramenta que pode ser adquirida no mercado AWS.Ele é implantado diretamente na nuvem AWS e, em seguida, é alimentado por essas GPUs NVIDIA para atender os clientes com a plataforma de avaliação de agentes.Muitas equipes querem mergulhar no mundo da IA.Eles querem utilizar toda essa nova tecnologia LLM.AWS com Bedrock torna muito fácil implantar esses modelos em seus diferentes ambientes.Eles não precisam possuir toda essa infraestrutura e toda essa tecnologia.</p>
-<p>Estamos usando o Bedrock para implantar vários tipos diferentes de modelos.Sejam os modelos GPT-4o ou Claude Sonnet, as equipes podem se conectar ao Bedrock, por meio de uma API ou podem acessar esses modelos e realmente interagir com eles diretamente do Bedrock.São apenas alguns cliques e os modelos estão lá.E do ponto de vista da NVIDIA, estamos trabalhando em estreita colaboração com a equipe de microsserviços NeMo.Temos o que chamamos de volante de dados, onde Arize ajuda as equipes a coletar e analisar o desempenho de seus aplicativos de IA.A NVIDIA fica nisso, no nível básico, fornecendo todo esse poder de computação, fornecendo as GPUs e toda a tecnologia para realmente executar os modelos.</p>
-<p>A AWS orquestra as implantações do modelo e, em seguida, o Arize ficará no nível superior, permitindo que você avalie e entenda o desempenho desses modelos quando entrarem no mundo do desenvolvimento ou da produção.Trabalhamos com algumas equipes que estão executando alguns pipelines de ajuste fino com microsserviços da NVIDIA, usando AWS para armazenar todos esses dados.Depois de executar esses serviços, podemos reduzir o tempo de latência.Muitas equipes gostam de trabalhar com a NVIDIA.Eles fornecem o ecossistema de microsserviços, o que torna muito fácil fazer ajustes finos e configurar proteções para seus casos de uso específicos.</p>
+<p>O Angular 19.2 está pronto para você conferir para que você possa construir o próximo grande aplicativo da web com o Angular.A equipe Angular tem expandido nosso suporte a sinais e reatividade e, com este lançamento, estamos introduzindo duas atualizações interessantes.Isso é httpResource e streaming de resposta com rxResource.No Angular v19, lançamos uma API de recurso experimental para construir aplicativos reativos assíncronos, capacitando os desenvolvedores a realizar tarefas assíncronas, como busca de dados.Os dados resultantes são então disponibilizados por meio de APIs de sinal familiares com alguns bônus adicionais, incluindo propriedades como valor, hasValue, isLoading e muito mais.</p>
+<p>Com base nesta API está o novo httpResource experimental que faz uma solicitação HTTP reativa e expõe o status da solicitação e a resposta como um recurso gravável.Para tornar as coisas ainda melhores, também incluímos streaming experimental de recursos usando a API rxResource.rxResource é ótimo para quando você deseja lidar de forma reativa com o cenário em que um endpoint transmite vários valores.Temos certeza de que há muitas reflexões sobre isso e adoraríamos receber seus comentários para nos ajudar a moldar o futuro dessas APIs.Então confira a nova RFC já disponível na página do Angular GitHub, link disponível na descrição.</p>
+<p>Você sabia que os modelos Angular estão cada vez mais legais e melhores para trabalhar?Não?Bem, aqui está outro ótimo recurso para você conferir.Agora temos suporte para expressões literais de modelo não marcadas.Isso é ótimo para coisas como concatenação de fluxo mais fácil e é menos complicado interpolar dinamicamente um valor de sua classe em seu modelo.Temos ainda mais correções de bugs, atualizações de estabilidade e novas APIs disponíveis nesta versão, então não deixe de conferir o blog Angular, link na descrição.Tudo bem amigos, é isso para mim.Atualize para Angular 19.2 e crie ótimos aplicativos.</p>
 
 </div>
 
